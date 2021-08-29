@@ -120,3 +120,18 @@ $('#best-seller-next-third').click(function(){
 $('#best-seller-prev-third').click(function(){
       End_seasen.trigger('prev.owl.carousel')
 })
+$('#open-login-box').click(function(){
+      $('.login').addClass('login-show');
+      $('body').addClass('stop-scrolling');
+});
+$('#close-login').click(function(){
+      $('.login').removeClass('login-show');
+      $('body').removeClass('stop-scrolling')
+});
+$('.login').click(function(e){
+      if(e.target !== this)
+      return;
+      $('.login').removeClass('login-show');
+      $('body').removeClass('stop-scrolling')
+
+});
