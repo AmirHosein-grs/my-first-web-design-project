@@ -17,6 +17,9 @@ Special_suggest.owlCarousel({
       loop:true,
       dots:false,
       nav:false,
+      center:true,
+      freeDrag:true,
+      autoWidth:true,
       autoplay:true,
       autoplayTimeout:10000,
       autoplayHoverPause:true,
@@ -25,33 +28,19 @@ Special_suggest.owlCarousel({
                   items:2,
                   margin:5
             },
-            300 : {
-                  items:2,
-                  margin:5
-            },
-            400 : {
-                  items:2,
-                  margin:40
-            },
-            500 : {
-                  items:2,
-                  margin:50
-            },
             600 : {
                   items:3,
-                  margin:50
+                  margin:10
             },
             800 : {
                   items:4,
-                  margin:60
             },
             1000 : {
                   items:5,
-                  margin:50
             },
             1200 : {
                   items:6,
-                  margin:70
+                  margin:30
             }
       }
 })
@@ -60,6 +49,9 @@ Best_seller.owlCarousel({
       loop:true,
       dots:false,
       nav:false,
+      center:true,
+      freeDrag:true,
+      autoWidth:true,
       autoplay:true,
       autoplayTimeout:5000,
       autoplayHoverPause:true,
@@ -68,33 +60,19 @@ Best_seller.owlCarousel({
                   items:2,
                   margin:5
             },
-            300 : {
-                  items:2,
-                  margin:5
-            },
-            400 : {
-                  items:2,
-                  margin:40
-            },
-            500 : {
-                  items:2,
-                  margin:50
-            },
             600 : {
                   items:3,
-                  margin:50
+                  margin:10
             },
             800 : {
                   items:4,
-                  margin:60
             },
             1000 : {
                   items:5,
-                  margin:50
             },
             1200 : {
                   items:6,
-                  margin:70
+                  margin:30
             }
       }
 })
@@ -102,7 +80,10 @@ End_seasen.owlCarousel({
       rtl:true,
       loop:true,
       dots:false,
+      autoWidth:true,
       nav:false,
+      center:true,
+      freeDrag:true,
       autoplay:true,
       autoplayTimeout:8000,
       autoplayHoverPause:true,
@@ -111,33 +92,19 @@ End_seasen.owlCarousel({
                   items:2,
                   margin:5
             },
-            300 : {
-                  items:2,
-                  margin:5
-            },
-            400 : {
-                  items:2,
-                  margin:40
-            },
-            500 : {
-                  items:2,
-                  margin:50
-            },
             600 : {
                   items:3,
-                  margin:50
+                  margin:10
             },
             800 : {
                   items:4,
-                  margin:60
             },
             1000 : {
                   items:5,
-                  margin:50
             },
             1200 : {
                   items:6,
-                  margin:70
+                  margin:30
             }
       }
 })
