@@ -36,7 +36,6 @@
     </div>
     <headers>
         <nav class="navigation">
-
             <ul class="nav-right">
                 <li class="logo"><a href="#">فروشگاه من</a></li>
                 <li><a href="#" class="enter" id="open-login-box">ثبت نام | ورود</a></li>
@@ -46,10 +45,10 @@
                 <li><a href="#">راهنما</a></li>
             </ul>
         </nav>
-        <div class="head-section">
+        <div id="open-menu" class="head-section">
             <div class="head-right">
                 <div class="menu-dropdown">
-                    <a href="#" class="menu-dropdown-triggle">
+                    <a class="menu-dropdown-triggle">
                         <i class="fas fa-caret-down"></i>
                         منو <span id="fade">محصولات</span> 
                     </a>
@@ -63,31 +62,117 @@
                             </form>
                         </li>
                         <li class="has-children">
-                            <a href="#" class="is-active">
-                                پوشاک
+                            <a href="#">
+                                لباس مردانه
                                 <i class="fas fa-angle-left"></i>
                             </a>
-                            <ul class="secondary-dropdown">
-                                <li class="has-children">
-                                    <a href="#">پیراهن</a>
-                                    <ul class="is-hidden">
+                            <ul class="men-dropdown">
+                                <li class="has-children-item">
+                                    <ul>
                                         <li class="has-children">
-                                            <a href="#">پیراهن دکمه ای</a>
+                                            <a href="#">شلوار اسلش مردانه</a>
                                         </li>
                                         <li class="has-children">
-                                            <a href="#">پیراهن رسمی</a>
+                                            <a href="#">شلوار جین مردانه</a>
                                         </li>
                                         <li class="has-children">
-                                            <a href="#">پیراهن یقه دار</a>
+                                            <a href="#">شلوار پارچه ای مردانه</a>
                                         </li>
                                         <li class="has-children">
-                                            <a href="#">پیراهن اداری</a>
+                                            <a href="#">پیراهن مردانه</a>
                                         </li>
                                         <li class="has-children">
-                                            <a href="#">پیراهن کتان</a>
+                                            <a href="#">تیشرت مردانه</a>
                                         </li>
                                         <li class="has-children">
-                                            <a href="#">پیراهن چوگان</a>
+                                            <a href="#">لباس راحتی مردانه</a>
+                                        </li>
+                                        <li class="has-children">
+                                            <a href="#">ست ورزشی مردانه</a>
+                                        </li>
+                                    </ul>
+                                </li>
+                            </ul>
+                        </li>
+                        <li class="has-children">
+                            <a href="#">
+                                لباس زنانه
+                                <i class="fas fa-angle-left"></i>
+                            </a>
+                            <ul class="women-dropdown">
+                                <li class="has-children-item">
+                                    <ul>
+                                        <li class="has-children">
+                                            <a href="#">شلوار اسلش زنانه</a>
+                                        </li>
+                                        <li class="has-children">
+                                            <a href="#">شلوار جین زنانه</a>
+                                        </li>
+                                        <li class="has-children">
+                                            <a href="#">شلوار پارچه ای زنانه</a>
+                                        </li>
+                                        <li class="has-children">
+                                            <a href="#">پیراهن زنانه</a>
+                                        </li>
+                                        <li class="has-children">
+                                            <a href="#">لباس راحتی زنانه</a>
+                                        </li>
+                                        <li class="has-children">
+                                            <a href="#">ست ورزشی زنانه</a>
+                                        </li>
+                                    </ul>
+                                </li>
+                            </ul>
+                        </li>
+                        <li class="has-children">
+                            <a href="#">
+                                بچه گانه 
+                                <i class="fas fa-angle-left"></i>
+                            </a>
+                            <ul class="child-dropdown">
+                                <li class="has-children-item">
+                                    <ul>
+                                        <li class="has-children">
+                                            <a href="#">پوشاک نوزاد</a>
+                                        </li>
+                                        <li class="has-children">
+                                            <a href="#">اکسسوری نوزاد</a>
+                                        </li>
+                                        <li class="has-children">
+                                            <a href="#">لباس کودک دخترانه</a>
+                                        </li>
+                                        <li class="has-children">
+                                            <a href="#">لباس کودک پسرانه</a>
+                                        </li>
+                                        <li class="has-children">
+                                            <a href="#">کیف و کفش بچه گانه</a>
+                                        </li>
+                                    </ul>
+                                </li>
+                            </ul>
+                        </li>
+                        <li class="has-children">
+                            <a href="#">
+                                زیورآلات 
+                                <i class="fas fa-angle-left"></i>
+                            </a>
+                            <ul class="accessory-dropdown">
+                                <li class="has-children-item">
+                                    <ul>
+                                        <li class="has-children">
+                                            <a href="#">دستبند و پابند</a>
+                                        </li>
+                                        <li class="has-children">
+                                            <a href="#">گردن بند</a>
+                                        </li>
+                                        <li class="has-children">
+                                            <a href="#">ست زیور آلات</a>
+                                        </li>
+                                        <li class="has-children">
+                                            <a href="#">گوشواره</a>
+                                        </li>
+                                        <li class="has-children">
+                                            <a href="#">انگشتر</a>
                                         </li>
                                     </ul>
                                 </li>
@@ -614,6 +699,8 @@
     </footer>
     <script src="./JS/jquery-2.x-git.min.js"></script>
     <script src="./JS/owl.carousel.min.js"></script>
+    <script src="./JS/jquery.menu-aim.js"></script>s
     <script src="./JS/script.js"></script>
+
 </body>
 </html>

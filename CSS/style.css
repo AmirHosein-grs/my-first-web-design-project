@@ -45,12 +45,7 @@ a{
     color: white;
 }
 .navigation a:hover {
-
-/* 
-*head-section 
-*/
-
-    opacity: 0.8;
+   opacity: 0.8;
 }
 .navigation .nav-right ,.navigation .nav-left {
     display: flex;
@@ -77,6 +72,11 @@ a{
     border-radius: 10px;
     padding: 2px;
 }
+
+/* 
+*head-section 
+ */
+
 .head-section {
     display: flex;
     justify-content: space-between;
@@ -91,6 +91,7 @@ a{
     border-radius: 5px;
     padding: 13px;
     position: relative;
+    cursor: pointer;
 }
  .menu-dropdown-triggle {
     color: white;
@@ -524,9 +525,9 @@ justify-content: space-between;
     opacity: 1;
 }
 .news-letter p{
-margin-left: 15%;
-line-height: 1.8;
-opacity: 0.9;
+    margin-left: 15%;
+    line-height: 1.8;
+    opacity: 0.9;
 }
 .news-letter form {
     display: flex;
@@ -757,6 +758,39 @@ opacity: 0.9;
     font-weight: 900;
     color: rgba(0, 0, 0, 0.555);
 }
+.men-dropdown,.women-dropdown,.child-dropdown,.accessory-dropdown {
+    position: absolute;
+    right: 100%;
+    top: 48px;
+    border-radius: 5px;
+    width: 200px;
+    font-size: 1.1em;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    flex-wrap: wrap;
+    background-color: white;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+    visibility: hidden;
+}
+.secondary-menu-show {
+    visibility: visible;
+}
+.women-dropdown {
+    top: 98px;
+}
+.child-dropdown {
+    top: 145px;
+}
+.accessory-dropdown {
+    top: 194px;
+}
+.has-children-item {
+    margin: 20px;
+}
+.has-children-item li a {
+    padding: 10px;
+}
 
 
 
@@ -881,12 +915,12 @@ opacity: 0.9;
       padding: 0;
     }
     .menu-dropdown{
-        padding: 5px;
+        padding: 5px;          
     }
     .menu-dropdown-triggle{
         padding: 5px;
         display: flex;
-        flex-direction: row;
+        flex-direction: row;   
     }
     .loogo {
         padding: 8px;
